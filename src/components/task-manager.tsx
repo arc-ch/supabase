@@ -102,7 +102,7 @@ function TaskManager({ session }: { session: Session }) {
   // 4️⃣	getPublicUrl()	Gets public link to uploaded image
   // 5️⃣	Save to DB	image_url stored with task in Supabase
   // 6️⃣	Display in UI	Task appears with image URL rendered <img>
-
+  // https://youtu.be/kyphLGnSz6Q
 
   const handleFileChange = (e: ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files.length > 0) {
